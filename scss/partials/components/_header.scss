@@ -1,0 +1,21 @@
+@use '../utilities/variables' as vars;
+
+header {
+  background-color: vars.$color-header;
+  color: vars.$color-texto;
+}
+
+.site-header {
+  background-color: vars.$color-header;
+
+  .navbar {
+    .nav-link {
+      color: #fff;
+      font-weight: 600;
+
+      &:hover {
+        color: vars.$color-secundario;
+      }
+    }
+  }
+}

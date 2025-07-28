@@ -1,0 +1,13 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button-style($bg-color) {
+    background-color: $bg-color;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}

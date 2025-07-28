@@ -1,20 +1,21 @@
-/* ==================== RESET ==================== */
+
+/* ==================== RESET ==================== 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-/* font-family: "Nunito", sans-serif; */
-/* Paleta basada en logo con fondo gris intermedio */
+/* font-family: "Nunito", sans-serif; 
+/* Paleta basada en logo con fondo gris intermedio 
 :root {
   --color-fondo: #e0e0e0;
   --color-header: #2C3E50;
   --color-footer: #1A3C67;
   --color-texto: #333333;
-  --color-primario: #3498DB; /* Azul */
-  --color-secundario: #E67E22; /* Naranja */
-  --color-acento: #F1C40F; /* Amarillo */
+  --color-primario: #3498DB; /* Azul 
+  --color-secundario: #E67E22; /* Naranja 
+  --color-acento: #F1C40F; /* Amarillo 
 }
 
 body {
@@ -23,8 +24,8 @@ body {
   color: var(--color-texto);
   margin: 0;
 }
-
-/* HEADER */
+*/
+/* HEADER 
 .site-header {
   background-color: var(--color-header);
 }
@@ -37,8 +38,8 @@ body {
 .navbar .nav-link:hover {
   color: var(--color-secundario);
 }
-
-/* BOTONES */
+*/
+/* BOTONES 
 .btn-primary {
   background-color: var(--color-secundario);
   border: none;
@@ -57,20 +58,22 @@ body {
 .btn-secondary:hover {
   background-color: #2b81ba;
 }
-/* Ajustar imágenes de las cards */
+*/
+/* Ajustar imágenes de las cards 
 .card-img-top {
   width: 100%;
-  height: 180px; /* Ajusta la altura uniforme */
-  object-fit: contain; /* Mantener proporción sin recortar */
-  padding: 10px; /* Espacio para que no quede pegado */
-  background-color: #f8f9fa; /* Fondo gris claro para uniformidad */
+  height: 180px; /* Ajusta la altura uniforme 
+  object-fit: contain; /* Mantener proporción sin recortar 
+  padding: 10px; /* Espacio para que no quede pegado 
+  background-color: #f8f9fa; /* Fondo gris claro para uniformidad 
   border-bottom: 1px solid #ddd;
 }
+  */
 
-
-/* FOOTER */
+/* FOOTER 
 footer {
   background-color: var(--color-footer);
   color: #fff;
   padding: 15px;
 }
+*/
